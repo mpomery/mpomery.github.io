@@ -1,0 +1,44 @@
+/*
+* {
+    border: solid 1px #FF0000;
+}
+
+* * {
+    border: solid 1px #00FF00;
+}
+
+* * * {
+    border: solid 1px #0000FF;
+}
+
+* * * * {
+    border: solid 1px #FF00FF;
+}
+
+* * * * * {
+    border: solid 1px #FFFF00;
+}
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.displaypic {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: solid 1px #000000;
+    border-radius: 50%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
