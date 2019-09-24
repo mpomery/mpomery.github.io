@@ -20,6 +20,24 @@
     background: #CDD3D0;
 }
 
+.headerlinks{
+    position: absolute;
+}
+
+.headerlinks ul {
+    display: flex;
+    justify-content: left;
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+.headerlinks li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px;
+    font-size: 16px;
+}
+
 .links ul {
     display: flex;
     justify-content: center;
