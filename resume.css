@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300');
+
+/*
+* {
+    border: 1px solid #FF0000;
+}
+* * {
+    border: 1px solid #00FF00;
+}
+* * * {
+    border: 1px solid #0000FF;
+}
+* * * * {
+    border: 1px solid #FFFF00;
+}
+* * * * * {
+    border: 1px solid #FF00FF;
+}
+*/
+
+a:link, a:visited {
+    color: #2D2419;
+}
+
+a:hover, a:focus {
+    color: #9C80EA;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo';
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    background: #FFFFFF;
+    background-image:  url("dust_scratches.png");
+    color: #2D2419;
+}
