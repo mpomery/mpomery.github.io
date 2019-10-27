@@ -74,16 +74,93 @@ body {
     color: #2D2419;
 }
 
-h1 {
+.container h1 {
     text-align: center;
     font-weight: 100;
     font-size: 32px;
     margin: 0px;
 }
 
-h2 {
+.container h2 {
     text-align: center;
     font-weight: 100;
     font-size: 18px;
     margin: 0px;
+}
+
+.eventcontainer {
+    display: block;
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.eventcontainer h1 {
+    text-align: left;
+    font-weight: 100;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.eventcontainer h2 {
+    text-align: left;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.eventcontainer h3 {
+    text-align: left;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.eventdate {
+    font-size: 18px;
+    display: block;
+}
+
+.event {
+    border: 1px solid #9C80EA;
+    margin: 5px;
+    padding: 20px;
+}
+
+.eventdate::before {
+    content: "Date: ";
+    font-weight: bold;
+}
+
+.eventlocation {
+    font-size: 18px;
+    display: block;
+}
+
+.eventlocation::before {
+    content: "Location: ";
+    font-weight: bold;
+}
+
+.eventdescription {
+    font-size: 16px;
+    display: block;
+}
+
+.eventdescription::before {
+    content: "About: ";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.eventlink {
+    font-size: 18px;
+    display: block;
+}
+
+.eventlink::before {
+    content: "More Info: ";
+    font-size: 18px;
+    font-weight: bold;
 }
